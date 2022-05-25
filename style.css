@@ -1,0 +1,46 @@
+h1 {
+    font-weight: 400;
+    margin: 0;
+}
+p {
+    line-height: 0.5rem;
+}
+.container {
+    border: 3px solid rgb(176, 176, 176);
+    width: 50%;
+    padding: 3rem 2rem 2rem;
+    font-family: sans-serif;
+    position: relative;
+    top: 3rem;
+    left: 25%;
+}
+.lightBlue{
+    background-color: #17A2B8;
+    height: 7rem;
+    width: 100.75%;
+    position: absolute;
+    top: -5px;
+    left: -3px;
+    right: -3px;
+    border-radius: 4px;
+}
+.smallIcons {
+    width: 1em;
+    height: 1em;
+}
+.iconPlusWords {
+    display: flex;
+    gap: 0.65rem;
+    align-items: center;
+}
+.iconPlusWords p{
+    font-size: 1.25rem;
+}
+#userIcon {
+    width: 15%;
+    border: 3px solid rgb(176, 176, 176);
+    border-radius: 50%;
+    padding: 1px;
+    background-color: white;
+    position: sticky;
+}
